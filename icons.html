@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Картка товара з іконками</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/icons.css" />
+  </head>
+  <body>
+    <a href="/index.html">Назад на головну</a>
+
+    <article class="product">
+      <img src="./img/apples.jpg" alt="Яблука" />
+
+      <!-- div а не ul, щоб вам було меньше розмітки розбирать -->
+      <div class="product-actions">
+        <button aria-label="В обране" class="item">
+          <svg class="icon"><use href="./img/sprite.svg#star"></use></svg>
+        </button>
+
+        <button aria-label="Написати відгук" class="item">
+          <svg class="icon"><use href="./img/sprite.svg#edit"></use></svg>
+        </button>
+
+        <button aria-label="В закладки" class="item">
+          <svg class="icon"><use href="./img/sprite.svg#home"></use></svg>
+        </button>
+      </div>
+
+      <div class="product-meta">
+        <h2 class="product-name">Красні яблука</h2>
+        <p class="product-price">Ціна: 100 кредитів</p>
+      </div>
+    </article>
+  </body>
+</html>
