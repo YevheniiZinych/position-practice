@@ -1,14 +1,7 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  margin-top: 100px;
-  gap: 50px;
-}
-
 .product {
   width: 370px;
+
+  margin: 50px auto 0;
 
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -21,16 +14,6 @@ body {
 .product-name {
   margin-top: 0;
   margin-bottom: 10px;
-}
-
-.product-price {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.product-actions {
-  display: flex;
-  outline: 3px solid orange;
 }
 
 .product-actions .icon {
